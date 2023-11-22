@@ -4,6 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+blinker = "==1.7.0"
 
 [dev-packages]
 
