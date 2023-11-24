@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 blinker = "==1.7.0"
+dash-tools = "*"
 
 [dev-packages]
 
