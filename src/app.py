@@ -154,7 +154,7 @@ def top_5_countries(selected_sport):
     fig = px.sunburst(df, path=['NOC', 'Medal'], values='Medal_count', color='NOC', hover_name='Medal_count')
     return fig
 
-#if __name__ == '__main__':
+
     
 app.run(debug=True)
 
